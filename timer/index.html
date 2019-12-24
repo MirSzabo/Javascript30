@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+	<title>Project Template</title>
+</head>
+<body>
+		<h1">Countdown Timer</h1>
+<div class="timer">
+	<div class="timer_controls">
+		<button data-time="20" class="timer_button">20 Seconds</button>
+		<button data-time="300" class="timer_button">5 minutes</button>
+		<button data-time="900" class="timer_button">15 minutes</button>
+		<button data-time="1200" class="timer_button">20 minutes</button>
+		<button data-time="3600" class="timer_button">Lunch break</button>
+		<form name="customForm" id="custom">
+			<input type="text" name="minutes" placeholder="Enter Minutes">
+		</form>
+	</div>
+	<div class="display">
+		<h1 class="displayTimeLeft"></h1>
+		<p class="displayEndTime"></p>
+	</div>
+</div>
+    <script src = "countdown.js"></script>
+</body>
+</html>
+
